@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Samewade Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/SA_logo.jpg">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Template-icons/all.min.css">
+    <link rel="stylesheet" href="Template-icons/fontawesome.min.css">
+ 
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="branding">
+                <a href="index.html"><img src="images/Samewade Logo.png"></a>
+            </div>
+            <nav>
+                <div class="nav-links" id="navlinks">
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a  href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="https://www.facebook.com/samewadeacademy/"><i class="fa-solid fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>    
+    </header>
+
+    <h5 class="discNotification" id="discNotification"></h5>
+
+    <div id="courses">
+        <h2 class="av-c">Available courses</h2>
+        <div class="line"></div>
+        <div class="av-courses">
+            <div class="course">
+            <img src="images/PS.jpg">
+            
+                <div class="overlay overlay-botom">
+                    <table class="table">
+                            <tr>
+                                <th>Magaca Koorsada:</th>
+                                <td>Photoshop</td>
+                            </tr>
+                            <tr>
+                                <th>Waqtiga:</th>
+                                <td>8 Hour</td>
+                            </tr>
+                            <tr>
+                                <th>Qiimaha:</th>
+                                <td>Free</td>
+                            </tr>
+                    </table>
+                    <div class="register btn btn-primary"><a href="https://www.youtube.com/playlist?list=PLqEi-k81OWaipyv36yT5wGHMphqHdpI7p" target="_blank">Watch</a></div>
+                </div>
+                
+                
+            </div>
+
+            <div class="course">
+                <img src="images/AI.jpg">
+            
+                <div class="overlay overlay-bottom">
+                    <table class="table">
+                        <tr>
+                            <th>Magaca Koorsada:</th>
+                            <td>Illustrator</td>
+                        </tr>
+                        <tr>
+                            <th>Waqtiga:</th>
+                            <td>10 Hour</td>
+                        </tr>
+                        <tr>
+                            <th>Qiimaha:</th>
+                            <td>Free</td>
+                        </tr>
+                </table>
+                <div class="register btn btn-primary" onclick="registerCourse()"><a href="https://www.youtube.com/playlist?list=PLqEi-k81OWahFV1QBKnrCw0i-6t0DbSVx" target="_blank">Watch</a></div>
+
+                </div>
+            </div>
+
+
+            <div class="course">
+                <img src="images/id.jpg">
+                <div class="overlay overlay-bottom">
+                    <table class="table">
+                        <tr>
+                            <th>Magaca Koorsada:</th>
+                            <td>In Design</td>
+                        </tr>
+                        <tr>
+                            <th>Waqtiga:</th>
+                            <td>13 Hour</td>
+                        </tr>
+                        <tr>
+                            <th>Qiimaha:</th>
+                            <td>Free</td>
+                        </tr>
+                    </table>
+                    <div class="register btn btn-primary" onclick="registerCourse()"><a href="https://www.youtube.com/playlist?list=PLqEi-k81OWaiUu_It7FV-t4wt_MNPyF-r" target="_blank">Watch</a></div>
+
+                </div>
+                
+            </div>
+    </div>
+
+    <footer class="text-center">
+        Copyright &copy; 2023 By Samewadeacademy
+    </footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samewade Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/SA_logo.jpg">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Template-icons/all.min.css">
+    <link rel="stylesheet" href="Template-icons/fontawesome.min.css">
+    
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <div class="branding">
+                <a href="index.html"><img src="images/Samewade Logo.png"></a>
+            </div>
+            <nav>
+                <div class="nav-links" id="navlinks">
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                        <li class="current"><a href="#home">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="https://www.facebook.com/samewadeacademy/"><i class="fa-solid fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-brands fa-twitter"></i></a></li>
+                    </ul>
+
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>    
+    </header>
+
+    <main>
+         <h5 class="notification"></h5>
+        <div id="home">
+            <div class="heading-title">
+                <h1>Ku Soo Dhawow <span>Samewade Academy</span></h1>
+                <p>Waa Mareeg Waxbarasho Oo Online Ah Oo Aad Ka Baran Kartid Xirfadaha Computerka Weliba <span>Afkaaga Hooyo</span></p>
+            </div>
+           
+
+        </div>
+    </main>
+    <footer class="text-center">
+        Copyright &copy; 2024 By Samewade-academy
+    </footer>
+
+    <script>
+    setTimeout(notifice,2000);
+    function notifice() {
+        let noticeElement = document.querySelector('.notification');
+        noticeElement.style.marginLeft = '0px';
+        noticeElement.textContent = 'So dhawow...🤚';
+        
+
+    }
+    </script>
+
+<script src="main.js"></script>
+</body>
+</html>

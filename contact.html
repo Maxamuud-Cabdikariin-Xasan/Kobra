@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Samewade Courses</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Template-icons/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/SA_logo.jpg">
+    <link rel="stylesheet" href="Template-icons/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <div class="branding">
+                <a href="index.html"><img src="images/Samewade Logo.png"></a>
+            </div>
+            <nav>
+                <div class="nav-links" id="navlinks">
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li class="current"><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="https://www.facebook.com/samewadeacademy/"><i class="fa-solid fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>    
+    </header>
+
+    <h5 class="notification" id="notification"></h5>
+
+<div class="container-fluid" id="container-fluid">
+    <form id="form" action="#" method="get" class="mx-auto">
+        <div class="form-header">
+            <h4>Create Account</h4>
+        </div>
+        <div class="fm-cont">
+            <div>
+                <div class="mb3 mt-3">
+                    <i class="fa-solid fa-user"></i> <label for="fName" class="form-label">First name*</label>
+                    <input type="text" class="form-control" id="fname">
+                    <p id="nameError"></p>
+                </div>
+
+                <div class="mb-3 mt-3">
+                    <label for="checkEmail" class="form-label"><i class="fa-solid fa-at"></i> Email*</label>
+                    <input type="email" class="form-control" id="checkEmail">
+                    <p id="emailError"></p>
+                </div>
+                <div class="mb-3 mt-3">
+                    <i class="fa-solid fa-lock"></i> <label for="checkPass" class="form-label">Password*</label>
+                    <input type="password" class="form-control" id="checkPass">
+                    <p id="passError"></p>
+                </div>
+            </div>
+            <div>
+                <div class="lname">
+                    <label for="lName" class="form-label" >Last name</label>
+                    <input type="text" class="form-control" id="lname">
+                </div>
+                <div class="mb3 mt-3">
+                    <label for="gender" class="form-label">Gender:</label><br>
+                    <input type="radio" name="gender" id="maleRadio">Male
+                    <input type="radio" name="gender" id="femaleRadio">Female
+                    <p id="sexError"></p>
+                </div>
+
+                <div class="mb3 mt-3">
+                    <label for="lName" class="form-label">Confirm Password*</label>
+                    <input type="password" class="form-control" id="confirmPass">
+                    <p id="confirmPassError"></p>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="submit btn btn-primary">Submit</button>
+
+
+       
+    </form>
+</div>
+
+    <footer class="text-center">
+        Copyright &copy; 2023 By Samewadeacademy
+    </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
